@@ -13,13 +13,13 @@
 }
   
 .bandeau .logo {
-    height: 15%; /* Ajustez la hauteur du logo */
-    width: 15%;  /* Ajustez la largeur du logo */
+    height: 10%; /* Ajustez la hauteur du logo */
+    width: 10%;  /* Ajustez la largeur du logo */
 }
   
 .bandeau .facebook {
-    height: 30px; /* Ajustez la hauteur de l'image Facebook */
-    width: 30px;  /* Ajustez la largeur de l'image Facebook */
+    height: 50px; /* Ajustez la hauteur de l'image Facebook */
+    width: 50px;  /* Ajustez la largeur de l'image Facebook */
     float: right;
 }
   
