@@ -1,35 +1,34 @@
 /* Styles pour le bandeau */
 .bandeau {
-    background-image: url('R.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: 2px solid #333;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: url('./R.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 2px solid black;
+    padding: 20px;
 }
-
-/* Style du logo du site */
-.logo-site img {
-    max-width: 200px;
-    margin-right: 10px;
+  
+.bandeau .logo {
+    height: 10%; /* Ajustez la hauteur du logo */
+    width: 10%;  /* Ajustez la largeur du logo */
 }
-
-/* Style du nom du site */
-.nom-site h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
-    color: #050505;
+  
+  .bandeau .facebook {
+    height: 5%; /* Ajustez la hauteur de l'image Facebook */
+    width: 5%;  /* Ajustez la largeur de l'image Facebook */
+}
+  
+.bandeau h1 {
+    color: white;
+    text-align: center;
+    font-size: 500%;
     text-decoration: underline;
 }
-
-/* Style du logo Facebook */
-.logo-facebook img {
-    max-width: 80px;
-    height: 80px;
-}
+  
 
 .container {
     text-align: center;
