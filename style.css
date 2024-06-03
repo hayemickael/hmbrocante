@@ -13,13 +13,13 @@
 }
 
 .bandeau .logo {
-  height: 15%; /* Ajustez la hauteur du logo */
-  width: 15%; /* Ajustez la largeur du logo */
+  height: 200px; /* Ajustez la hauteur du logo */
+  width: 200px; /* Ajustez la largeur du logo */
 }
 
 .bandeau .facebook {
-  height: 20%; /* Ajustez la hauteur de l'image Facebook */
-  width: 20%; /* Ajustez la largeur de l'image Facebook */
+  height: 100px; /* Ajustez la hauteur de l'image Facebook */
+  width: 100px; /* Ajustez la largeur de l'image Facebook */
   float: right;
 }
 
@@ -106,4 +106,61 @@ h3 {
 body {
   background-color: black;
   color: white;
+}
+
+/* CSS pour les écrans de téléphone mobile */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .bandeau {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("./R.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 2px solid black;
+    padding: 20px;
+  }
+
+  .bandeau .logo {
+    height: 50px; /* Ajustez la hauteur du logo */
+    width: 50px; /* Ajustez la largeur du logo */
+  }
+
+  .bandeau .facebook {
+    height: 25px; /* Ajustez la hauteur de l'image Facebook */
+    width: 25px; /* Ajustez la largeur de l'image Facebook */
+    float: right;
+  }
+
+  .bandeau h1 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .box {
+    width: 500px;
+    height: auto;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  .slideshow-item img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover; /* Cela permettra de couvrir l'espace disponible sans déformer l'image */
+  }
 }
