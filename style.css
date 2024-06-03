@@ -18,8 +18,8 @@
 }
   
 .bandeau .facebook {
-    height: 60%; /* Ajustez la hauteur de l'image Facebook */
-    width: 60%;  /* Ajustez la largeur de l'image Facebook */
+    height: 100%; /* Ajustez la hauteur de l'image Facebook */
+    width: 100%;  /* Ajustez la largeur de l'image Facebook */
     float: right;
 }
   
