@@ -41,8 +41,8 @@
 }
   
 .box {
-    width: 700px;
-    height: 550px;
+    width: 60%;
+    height: 55%px;
     border: 1px solid black;
     padding: 20px;
     box-sizing: border-box;
@@ -56,7 +56,7 @@ h3 {
 
 .slideshow {
     position: relative;
-    height: 200px; /* Ajustez à la hauteur de vos images */
+    height: 50%; /* Ajustez à la hauteur de vos images */
 }
   
 .slideshow-item {
@@ -91,8 +91,8 @@ h3 {
 }
   
 .slideshow-item img {
-    width: 600px;
-    height: 500px;
+    width: 80%;
+    height: 200%;
     object-fit: cover; /* Cela permettra de couvrir l'espace disponible sans déformer l'image */
 }
 
